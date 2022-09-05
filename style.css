@@ -1,0 +1,37 @@
+section {
+  height: 100vh;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.id{
+  bodybgcolor: teal;
+}
+
+img.resize {
+  width:540px; /* you can use % */
+  height: auto;
+}
+
+.container{
+  max-width:900px;
+  
+}
+.gallery{
+  
+  float: left;
+}
+
+.gallery img{
+  width:100%;
+  height: 450px;
+}
+.example {
+  background-color:teal;
+  width: 100%;
+ } 
+
+ 
