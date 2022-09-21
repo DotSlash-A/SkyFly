@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-   
+    <!--Bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>SkyFly</title>
     <link href="style.css" rel="stylesheet">
@@ -54,10 +54,10 @@
         We guarantee that every trip you book with us  will be unique and unforgettable.</h3>   
       </span>
         <div class="container">
-          <div id="gallery">
+          <div class="gallery">
             <img src="D:\canva\trekk.webp"  alt="Italian Trulli">
           </div>
-          <div id="gallery">
+          <div class="gallery">
             <img src="D:\canva\boatss.webp"  alt="Italian Trulli">
           </div>
         </div>
@@ -65,28 +65,35 @@
       
       <section id="newfeatures">
         <div class="container2">
-          <div id="gallery2">
+          <div class="gallery2">
             <img src="D:\canva\nf1.webp">
-              <div id="desc">                
+              <div class="desc">
+                <span>
                  <h2 style="color: teal ;">Travel Magazine</h2>
-                 <p> News write-ups offer a great way to let clients know about new products and services, events, awards, and more.</p>             
+                 <p> News write-ups offer a great way to let clients know about new products and services, events, awards, and more.</p>
+                </span>
               </div>
           </div>
-          <div id="gallery2">
+          <div class="gallery2">
             <img src="D:\canva\nf2.webp">
-            <div id="desc">              
+            <div class="desc">
+              <span>
                 <h2 style="color: teal ;">Travel Unlimited</h2>
-                <p> News write-ups offer a great way to let clients know about new products and services, events, awards, and more.</p>               
+                <p> News write-ups offer a great way to let clients know about new products and services, events, awards, and more.</p>
+               </span>
               </div>
           </div>
-          <div id="gallery2">
+          <div class="gallery2">
             <img src="D:\canva\nf3.webp">
-            <div id="desc">              
+            <div class="desc">
+              <span>
                 <h2 style="color: teal ;">Trixie's Travels</h2>
-                <p> News write-ups offer a great way to let clients know about new products and services, events, awards, and more.</p>            
+                <p> News write-ups offer a great way to let clients know about new products and services, events, awards, and more.</p>
+               </span>
             </div>
           </div>
         </div>
+
         </section>
       
       <section id="lastpg">
@@ -94,25 +101,6 @@
           <img src="D:\github\SkyFly\lastpic.png">
           </div>
         </div>
-      </section>
-
-      <section id="form">
-        <form>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-          </div>
-          <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
       </section>
   
     </main>
@@ -128,3 +116,73 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
   </html>
+
+
+
+===================================================================================
+section {
+  height: 100vh;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.id{
+  bodybgcolor: teal;
+}
+
+img.resize {
+  width:540px; /* you can use % */
+  height: auto;
+}
+
+.container{
+  max-width:900px;
+  
+}
+.gallery{
+  
+  float: left;
+}
+
+.gallery img{
+  width:100%;
+  height: 450px;
+}
+.example {
+  background-color:teal;
+  width: 100%;
+ } 
+
+ .container2{
+  max-width: 1300px;
+  margin: auto;
+  
+ }
+
+.gallery2{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 400px;
+  height: 500px;
+}
+
+.gallery2 img{
+  width: 100%;
+  height: 60%;
+}
+
+.desc{
+  padding: 15px;
+  text-align: center;
+}
+
+#lastpg{
+  height: 100vh;
+  width: 100%;
+
+
+}
