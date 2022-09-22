@@ -1,4 +1,7 @@
 
+#hero{
+  overflow: hidden;
+}
 #intro {
   height: 100vh;
   border: 1px solid black;
@@ -6,6 +9,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: rgb(6, 158, 158);
    
 
 }
@@ -36,9 +40,6 @@
 }
 
 
-
-
-
 img.resize {
   width:540px; /* you can use % */
   height: auto;
@@ -55,7 +56,7 @@ img.resize {
 
 #gallery img{
   width:100%;
-  height: 450px;
+  height: 250px;
 }
 .example {
   background-color:teal;
