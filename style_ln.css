@@ -1,51 +1,57 @@
-body{
-  width: 100vw
+main img {
+  width: 100%
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
 
 #intro {
-  height: 100vh;
-  border: 1px solid black;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   text-align: center;
-  background-image: url(ff.png);
-   
+}
 
+#intro .container {
+  padding: 10px;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
 }
+
+#intro img {
+  width: 20%;
+}
+
+#intro span {
+  grid-row: 1 / 3;
+}
+
 #newfeatures {
-  height: 100vh;
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url(ff.png);
 }
+
 #lastbg {
-  width: 100%;
   height: 100vh;
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("lastpic.png") ;
 }
+
 #form {
   height: 100vh;
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-image: url("formpic.png");
 }
-
-
-
-
 
 img.resize {
   width:540px; /* you can use % */
